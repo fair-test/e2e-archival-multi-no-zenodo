@@ -1,0 +1,30 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Test Software",
+  "description": "A test software with multiple non-Zenodo DOI identifiers",
+  "version": "1.0.0",
+  "license": "https://spdx.org/licenses/MIT",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "@id": "https://doi.org/10.1234/first.doi"
+    },
+    {
+      "@type": "PropertyValue",
+      "@id": "https://doi.org/10.5678/second.doi"
+    }
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Test",
+      "familyName": "User",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "FAIR Data Innovations Hub"
+      }
+    }
+  ],
+  "codeRepository": "https://github.com/fair-test/test-repo"
+}
